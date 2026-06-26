@@ -1,0 +1,61 @@
+```gitignore
+# =========================
+# Build
+# =========================
+build/
+cmake-build-*/
+out/
+
+# =========================
+# ESP-IDF
+# =========================
+sdkconfig
+sdkconfig.old
+sdkconfig.defaults
+dependencies.lock
+
+# =========================
+# Firmware
+# =========================
+*.bin
+*.elf
+*.map
+*.hex
+*.uf2
+
+# =========================
+# Flash dumps
+# =========================
+BackUP/*.bin
+Extracted/*.bin
+
+# Keep folder structure
+!BackUP/.gitkeep
+!Extracted/.gitkeep
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# Logs
+# =========================
+*.log
+Logs/*
+!Logs/.gitkeep
+
+# =========================
+# OS
+# =========================
+Thumbs.db
+.DS_Store
+```
