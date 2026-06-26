@@ -1,0 +1,3 @@
+# FrendAI
+
+Initial project documentation.
